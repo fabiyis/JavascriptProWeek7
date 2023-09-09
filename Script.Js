@@ -19,4 +19,4 @@ class Dog extends Animal {
     console.log(`${this.species} (${this.color} color) makes a sound: ${this.sound}`);
   }
 }
-
+const myDog = new Dog('Dog', 'Woof', 'Brown');
