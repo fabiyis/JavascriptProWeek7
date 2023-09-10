@@ -20,3 +20,4 @@ class Dog extends Animal {
   }
 }
 const myDog = new Dog('Dog', 'Woof', 'Brown');
+myDog.makeSound();
